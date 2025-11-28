@@ -1,7 +1,7 @@
 const express = require('express');
 const twilio = require('twilio');
-
 const app = express();
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
